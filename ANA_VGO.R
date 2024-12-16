@@ -1,11 +1,12 @@
-#Instalar paquetes
-install.packages("readxl")
-install.packages("psych")
-install.packages("EFAtools")
-install.packages("lavaan")
-install.packages("lavaanPlot")
-devtools::install_github("masurp/ggmirt")
-install.packages("forcats")
+#Instalar paquetes para hacer analisis
+install.packages("readxl") #leer documentos de excel en R
+install.packages("psych") # analisis psicometricos- alpha consistencia
+install.packages("EFAtools") # Analisis en paralelo -Nfactors 
+install.packages("lavaan") # hacer el analisis factorial confirmatorio CFA
+install.packages("lavaanPlot") # graficar el CFA
+install.packages("mirt") #analisis de teoria de respuesta al item
+devtools::install_github("masurp/ggmirt") # graficos de tri
+install.packages("forcats") # complementario
 library(readxl)
 library(psych)
 library(EFAtools)
